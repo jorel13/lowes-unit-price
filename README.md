@@ -29,3 +29,6 @@ Fractions and mixed numbers like `92-5/8-in` are handled.
 Where it shows up: search and category grids, the "You may also like" carousels, and product pages (using the page's structured data, badge under the title).
 
 Products with no `A x B x C` size in the title are skipped.
+
+## License
+MIT. See `LICENSE`.
