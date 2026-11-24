@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Lowe's Lumber Unit Price",
+  "version": "1.0.0",
+  "description": "Shows price per linear foot, per board foot, and per square foot for lumber and sheet goods on lowes.com.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.lowes.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

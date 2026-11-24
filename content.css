@@ -1,0 +1,21 @@
+.lup-badge {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: #e8f1fb;
+  border: 1px solid #9bcbeb;
+  color: #012169;
+  font: 600 12px/1.5 Arial, sans-serif;
+  white-space: normal;
+}
+
+.lup-badge.lup-best {
+  background: #d4f7e3;
+  border-color: #007a33;
+  color: #004b1d;
+}
+
+.lup-badge.lup-best::before {
+  content: "Best value \2022 ";
+}
